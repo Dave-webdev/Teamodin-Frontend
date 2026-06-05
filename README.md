@@ -72,22 +72,22 @@ The application will be available at http://localhost:5173.
 ## Project Structure
 
 src/
-├── assets/ # Static assets (images, global CSS, Nunito Sans font files)
-├── components/ # Global shared UI components (Buttons, Inputs, Modals)
-├── config/ # Global configurations (Axios instances, constants)
-├── features/ # Feature-based modules (Domain-driven)
-│ ├── auth/ # Login, Workspace creation, OAuth
-│ ├── directory/ # Employee list, Org Chart, Profiles
-│ ├── leave/ # Leave requests, Balances, Manager Approvals
-│ ├── onboarding/ # Task checklists, New-hire templates
-│ └── analytics/ # eNPS dashboards, Attrition charts
-├── hooks/ # Shared custom React hooks
-├── layouts/ # Page layout wrappers (DashboardLayout, AuthLayout)
-├── lib/ # Third-party library initializations (React Query client)
-├── routes/ # Route definitions and lazy loading
-├── store/ # Zustand global state stores
-├── types/ # Global TypeScript type definitions
-└── utils/ # Helper functions, formatters, validators.
+├── assets/          # Static assets (images, global CSS, Nunito Sans font files)
+├── components/      # Global shared UI components (Buttons, Inputs, Modals)
+├── config/          # Global configurations (Axios instances, constants)
+├── features/        # Feature-based modules (Domain-driven)
+│   ├── auth/        # Login, Workspace creation, OAuth
+│   ├── directory/   # Employee list, Org Chart, Profiles
+│   ├── leave/       # Leave requests, Balances, Manager Approvals
+│   ├── onboarding/  # Task checklists, New-hire templates
+│   └── analytics/   # eNPS dashboards, Attrition charts
+├── hooks/           # Shared custom React hooks
+├── layouts/         # Page layout wrappers (DashboardLayout, AuthLayout)
+├── lib/             # Third-party library initializations (React Query client)
+├── routes/          # Route definitions and lazy loading
+├── store/           # Zustand global state stores
+├── types/           # Global TypeScript type definitions
+└── utils/           # Helper functions, formatters, validators
 
 ---
 
