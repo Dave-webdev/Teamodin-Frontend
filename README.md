@@ -87,7 +87,7 @@ src/
 ├── routes/ # Route definitions and lazy loading
 ├── store/ # Zustand global state stores
 ├── types/ # Global TypeScript type definitions
-└── utils/ # Helper functions, formatters, validators
+└── utils/ # Helper functions, formatters, validators.
 
 ---
 
